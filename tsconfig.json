@@ -2,11 +2,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@app/*": ["/app/app/*"],
-      "@core/*": ["/app/core/*"],
+      "@core/*": ["src/app/core/*"],
       "@page/*": ["src/app/page/*"],
       "@material/*": ["src/app/material/*"],
-      "@user/*": ["src/appuser/*"]
+      "@user/*": ["src/app/user/*"]
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
