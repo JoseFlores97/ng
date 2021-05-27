@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatDialogModule } from '@angular/material/dialog';
 
 const MaterialComponents = [
-  MatSliderModule
-]
+  MatSliderModule,
+  MatDialogModule
+];
 
 @NgModule({
   declarations: [],
