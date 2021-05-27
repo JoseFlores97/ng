@@ -9,14 +9,4 @@ import { MapComponent } from './map/map.component';
 })
 export class AppComponent {
   title = 'structure';
-
-  constructor(public dialog: MatDialog) {}
-
-  openModal(): void {
-    const dialogRef = this.dialog.open(MapComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
 }

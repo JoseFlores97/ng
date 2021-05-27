@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { MapComponent } from './map/map.component';
-import { MaterialModule } from '@material/material.module';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { MaterialModule } from '@material/material.module';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    NoopAnimationsModule,
-    MaterialModule
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
